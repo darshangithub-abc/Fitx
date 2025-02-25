@@ -1,0 +1,441 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  color: var(--gre-col);
+}
+
+:root {
+  --pri-col: #000000;
+  ;
+  --gre-col: #ABC502;
+  --pri-fon: 'lato', sans-serif;
+  --sec-col: #999999;
+  --whi-col: #ffffff;
+  --bg-col: #222222;
+}
+
+body {
+  color: var(--sec-col);
+  font-family: var(--pri-fon);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.nav-sec {
+  background: var(--pri-col);
+  height: 80px;
+  z-index: 999;
+  width: 100%;
+}
+
+.nav-adj {
+  height: 80px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.list li a {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--whi-col);
+  transition: 0.7s all;
+}
+
+.list li a:hover {
+  color: var(--gre-col);
+}
+
+.hamber a {
+  color: var(--gre-col);
+  font-size: 18px;
+  transition: 0.4s all;
+}
+
+.hamber a:hover {
+  color: var(--whi-col);
+}
+
+.hamber a i {
+  font-size: 20px;
+}
+
+.sort-list {
+  height: 250px;
+  right: 100%;
+  transition: 0.6s ease-in-out;
+}
+
+.btt {
+  top: 10px;
+  right: 20px;
+  color: var(--six-col) !important;
+}
+
+.hero-sec {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/home01.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-adj h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-adj h3 {
+  color: var(--gre-col);
+  font-size: 24px;
+  font-style: italic;
+}
+
+.hero-adj h3::after {
+  content: "";
+  width: 110px;
+  height: 1px;
+  background-color: var(--gre-col);
+  margin-top: 15px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+.hero-adj a {
+  /* max-width: 150px; */
+  background: var(--gre-col);
+  color: var(--pri-col);
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid var(--gre-col);
+  padding: 13px 40px;
+  display: inline-block;
+  transition: 0.7s all;
+}
+
+.hero-adj a:hover {
+  background: var(--pri-col);
+  color: var(--gre-col);
+}
+
+.join-sec {
+  padding-top: 100px;
+}
+
+.first-join {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 30px;
+}
+
+.join-adj-first {
+  background-image: url(../images/background/promo1.jpg);
+}
+
+.join-adj {
+  background-image: url(../images/background/promo2.png);
+  background-color: var(--gre-col);
+}
+
+.first-join h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--pri-col);
+  line-height: 1em;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.he-adj::after {
+  content: "";
+  display: block;
+  width: 76px;
+  height: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #ABC502;
+}
+
+.join-adj p {
+  color: var(--pri-col);
+  margin-bottom: 20px;
+}
+
+.anc-butt {
+  min-width: 150px;
+  background: var(--pri-col);
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-block;
+  padding: 13px 40px;
+  transition: 0.7s all;
+}
+
+.anc-butt:hover {
+  color: var(--gre-col) !important;
+}
+
+.join-adj-first h2 {
+  color: var(--gre-col);
+}
+
+.table-butt a {
+  background: var(--gre-col);
+  color: var(--pri-col);
+}
+
+.table-butt a:hover {
+  background: var(--pri-col);
+  color: var(--gre-col);
+}
+
+.choose-use {
+  padding: 100px 0px;
+}
+
+.main-head {
+  font-size: 28px;
+  line-height: 1rem;
+  font-weight: 800;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+.main-head::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: var(--gre-col);
+  display: block;
+  margin: 20px auto 10px;
+
+}
+
+.choose-icon {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(153, 153, 153, 0.2);
+  transition: 0.6s all;
+}
+
+.choose-icon i {
+  font-size: 42px;
+  color: var(--gre-col);
+}
+
+.icon-cap h4 {
+  font-weight: 700;
+  color: var(--pri-col);
+  font-style: italic;
+  font-size: 1.286rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.icon-det:hover .choose-icon {
+  background: var(--pri-col);
+}
+
+.about-sec {
+  padding: 100px 0px;
+  background-color: rgba(153, 153, 153, 0.2);
+}
+
+.about::after {
+  margin: 20px 0;
+}
+
+.video-sec {
+  padding: 100px 0px;
+  background: url(../images/background/video-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.video-icon i {
+  font-size: 90px;
+  color: var(--gre-col);
+}
+
+.icon-cap h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.icon-cap p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.trainer-sec {
+  padding: 100px 0px;
+}
+
+.trai-nam {
+  background: var(--gre-col);
+}
+
+.trai-nam h4 {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--gre-col);
+  color: var(--pri-col);
+  font-style: italic;
+}
+
+.social {
+  background: var(--pri-col);
+}
+
+.social h4 {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.social-icon a {
+  color: var(--gre-col);
+}
+
+.get-sec {
+  padding: 100px 0px;
+  background: url(../images/background/queto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.get-cap h2 {
+  font-size: 2.857rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.gallery-sec {
+  padding: 100px 0px;
+}
+
+.pack-sec {
+  padding: 100px 0px;
+}
+
+.pack-cap {
+  background: var(--pri-col);
+}
+
+.pack-head h4 {
+  color: var(--gre-col);
+  font-style: italic;
+}
+
+.pack-head span {
+  font-size: 20px;
+  color: var(--whi-col);
+}
+
+.pack-head {
+  border-bottom: 1px solid var(--gre-col);
+}
+
+.pack-list {
+  list-style-type: disc;
+}
+
+.butt {
+  background: var(--gre-col);
+}
+
+.logo-sec {
+  background: var(--gre-col);
+}
+
+.input-sec {
+  padding: 100px 0px;
+  background: #222222;
+  ;
+}
+
+.input-butt input, .input-butt textarea {
+  color: #999;
+  background: var(--pri-col);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.contact-sec {
+  background: var(--gre-col);
+}
+
+.con-cap a, .con-cap p {
+  color: var(--pri-col);
+}
+
+.con-cap h4 {
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--pri-col);
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.con-cap {
+  border-right: 1px solid var(--pri-col);
+  border-left: 1px solid var(--pri-col);
+}
+
+.foot-fir {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background/footer-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.foot-list a {
+  font-size: 30px;
+  color: var(--gre-col);
+  transition: 0.6s all;
+}
+
+.foot-list a:hover {
+  color: var(--whi-col);
+}
+
+.sec-food {
+  padding: 20px 0px;
+  background: var(--pri-col);
+}
+
+.sec-food span {
+  color: var(--gre-col);
+  font-style: italic;
+  font-size: 16px;
+}
+
+@media (min-width:768px) {
+  .hero-adj h1 {
+    font-size: 60px;
+  }
+
+  .join-all {
+    position: relative;
+    top: -100px;
+  }
+
+  .join-sec {
+    padding: 0;
+  }
+
+  .table {
+    max-width: 50%;
+  }
+}
